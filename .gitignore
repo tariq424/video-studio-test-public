@@ -1,0 +1,32 @@
+# secrets
+.env
+settings.json
+*.key
+# environments / deps
+app/env/
+node_modules/
+__pycache__/
+*.pyc
+# media & outputs (live in F:\videos)
+assets/
+jobs/
+shorts/
+*.mp4
+*.wav
+*.mp3
+*.png
+*.jpg
+remotion/public/
+pinokio/logs/
+pinokio/installed.flag
+remotion/out/
+remotion/_preview_bundle/
+screenshots/
+
+# cloud-stills browser profile (logins, cookies)
+cloud_profile/
+app/kenv/
+
+# ladder v2: Claude-written Remotion components (temporary, deleted after each render)
+remotion/src/gen/
+models/
